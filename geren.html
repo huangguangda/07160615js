@@ -1,0 +1,277 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>个人资料</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<script type="text/javascript" src="jquery-1.8.3.js"></script>
+
+<style type="text/css">
+  *{
+  margin: 0px;
+  padding:0px;
+  }
+  body{
+  text-align: center;
+  background-color: white;
+  }
+  /*菜单栏*/
+  .menu{
+  width: 100%;
+  background-color: black;
+  display: inline-block;
+  }
+  .ul{
+  display: inline-block;
+  list-style-type:none;
+  }
+  .li{
+  list-style: none;
+  float: left;
+  border: 1px solid #888;
+  margin-left: 20px;
+  margin-top: 7px;
+  height: 40px;
+  border-radius:5px;
+  font-family:"华文行楷";
+  }
+    /*代表菜单栏的样式*/
+ 	a{
+  color: #FFF;
+  text-decoration: none;
+  display:block;
+  float: left; 
+  padding:10px 20px 15px 20px;
+ 	}
+
+ 	/*控制两边按钮的*/
+	.main{
+  margin-top: 20px;
+  width: 900px;
+	height: 400px;
+	margin: 0px auto;
+	position: relative;
+	overflow: hidden;
+  	}
+  	
+  /*控制图片大小*/
+  img{
+  width: 900px;
+  height: 400px;
+	}
+  /*字体大小*/
+	.title1 {
+  	margin-left: 50px;
+  	margin-right: 50px;
+   	display:block;
+    float: left;
+    font-family:"华文行楷";
+ 	}
+	.title2{
+	margin-top: 15px;
+	margin-bottom: 20px;
+	font-family:"华文行楷";
+	font-size: 30px;
+	}
+
+ 	/* 个人简介 */
+ 	.gdjj{
+ 		width: 100%;
+ 	}
+ 	.gdzl1{
+	   	display:block;
+	   	width: 100%;
+	   	overflow:auto;
+	   	margin-top: 20px;
+		border: solid 0px red;
+
+	   	
+	}
+	.gdzl1_div1{
+		width:600px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.gdzl2_div2{
+		width:600px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.td1{
+		 color:red;
+	}
+	.kmjs{
+		width:600px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	.table2{
+		background-color:white;
+	}
+
+</style>
+</head>
+<body>
+    <!-- 页面菜单 -->
+<div class="menu">
+  <ul class="ul">
+    <div class="li"><li><a href="main.html">首页</a></li></div>
+    
+    <div class="li"><li><a href="geren.html">个人资料</a></li></div>
+    
+    <div class="title1"><h3> GD阿達 </h3></div>
+    
+    <div class="li"><li><a href="sheng.html">大学生活</a></li></div>
+    <div class="li"><li><a href="register.html">注册</a></li></div>
+  </ul> 
+</div>
+
+<p class="title2" id="title2">个人资料</p>
+<!-- 个人简介 -->
+<div>
+	<div class="gdjj">
+	 
+	</div> 
+	<div class="gdzl1">
+	<div class="gdzl1_div1">
+
+<table class="table2" width="600" height="100" border="1">  
+			  <tr><td colspan="4"><b>基本信息</b></td></tr>  
+			  <tr>  
+			    <td class="td1">姓名</td>
+				<td>黄广达</td>
+				<td  class="td1">学号</td>
+				<td>07160615</td>
+			  </tr>
+			  <tr>
+			  	<td  class="td1">性别</td>
+				<td>男</td>
+				<td  class="td1">民族</td>
+				<td>汉族</td>
+			  </tr>
+			  <tr>
+			  	<td  class="td1">出生日期</td>
+				<td>1997-04-23</td>
+				<td  class="td1">入学日期</td>
+				<td>2016-09-01</td>
+			  </tr>
+			  <tr>
+			  	<td  class="td1">籍贯</td>
+				<td>广东省汕头市</td>
+				<td  class="td1">宿舍号</td>
+				<td>G1-538</td>
+			  </tr>
+			  <tr>
+			  	<td class="td1">邮政编码</td>
+				<td>515041</td>
+				<td class="td1">政治面貌</td>
+				<td>团员</td>
+			  </tr>
+			<tr>
+			  	<td class="td1">学历层次</td>
+				<td>专科</td>
+				<td class="td1">学制</td>
+				<td>3</td>
+			  </tr>
+			  <tr>
+				<td class="td1">所在学院</td>
+				<td>计算机与设计学院</td>
+				<td class="td1">所在班级</td>
+				<td>软件1606</td>
+			  </tr>
+			  <tr>
+				<td class="td1">所在专业</td>
+				<td>软件技术</td>
+				<td class="td1">当前所在级</td>
+				<td>2016</td>
+			  </tr>
+			  <tr>
+				<td class="td1">电子邮箱</td>
+				<td>2304806342@qq.com</td>
+				<td class="td1">qq</td>
+				<td>2304806342</td>
+			  </tr>
+			</table>  
+			</div>
+</div><br/>
+
+<div class="kmjs" id="kmjs">
+	<div class="gdzl2_div2">
+	<table class="table2" width="600" height="100" border="1">  
+			  <tr><td colspan="4"><b>学习课程介绍</b></td></tr>  
+
+			  <tr>  
+			    <td class="td1">java</td>
+				<td>Java是一种可以撰写跨平台应用软件的面向对象的程序设计语言。Java 技术具有卓越的通用性、高效性、平台移植性和安全性，广泛应用于PC、数据中心、游戏控制台、科学超级计算机、移动电话和互联网，同时拥有全球最大的开发者专业社群。</td>
+			  </tr>
+			  <tr>
+			  	<td class="td1">php</td>
+				<td>PHP 独特的语法混合了C、Java、Perl 以及 PHP 自创新的语法。它可以比 CGI 或者 Perl 更快速的执行动态网页。</td>
+			  </tr>
+			  <tr>
+			  	<td class="td1">swift</td>
+				<td>Swift是一款易学易用的编程语言，而且它还是第一套具有与脚本语言同样的表现力和趣味性的系统编程语言。Swift的设计以安全为出发点，以避免各种常见的编程错误类别。</td>
+			  </tr>
+			  <tr>
+			  	<td class="td1">android</td>
+				<td>android是一种以Linux与JAVA为基础的开放源代码操作系统，主要使用于便携设备。中国大陆地区较多人使用“安卓”。Android操作系统最初由Andy Rubin开发,被谷歌收购后则由Google公司和开放手机联盟领导及开发,主要支持手机与平板。</td>
+			  </tr>
+			  <tr>
+			  	<td class="td1">html</td>
+				<td>超文本标记语言，标准通用标记语言下的一个应用。 “超文本”就是指页面内可以包含图片、链接，甚至音乐、程序等非文字元素。 超文本标记语言的结构包括“头”部分（英语：Head）、和“主体”部分（英语：Body），其中“头”部提供关于网页的信息，“主体”部分提供网页的具体内容。</td>
+			  </tr>
+			  <tr>
+			  	<td class="td1">css</td>
+				<td>CSS 能够对网页中元素位置的排版进行像素级精确控制，支持几乎所有的字体字号样式，拥有对网页对象和模型样式编辑的能力。</td>
+			  </tr>
+			  <tr>
+			  	<td class="td1">office</td>
+				<td>Microsoft Office 是一套由微软公司开发的办公软件，它为Microsoft Windows和Apple Macintosh操作系统而开发。与办公室应用程序一样，它包括联合的服务器和基于互联网的服务。</td>
+			  </tr>
+			  <tr>
+			  	<td class="td1">javaScript</td>
+				<td>JavaScript一种直译式脚本语言，是一种动态类型、弱类型、基于原型的语言，内置支持类型。它的解释器被称为JavaScript引擎，为浏览器的一部分，广泛用于客户端的脚本语言，最早是在HTML（标准通用标记语言下的一个应用）网页上使用，用来给HTML网页增加动态功能。 </td>
+			  </tr>
+			  <tr>
+				<td class="td1">mysql</td>
+				<td>MySQL 是一个关系型数据库，由瑞典 MySQL AB 公司开发，目前属于 Oracle 旗下公司。MySQL 最流行的关系型数据库管理系统，在 WEB 应用方面 MySQL 是最好的 RDBMS (Relational Database Management System，关系数据库管理系统) 应用软件之一。</td>
+			  </tr>
+			</table>  
+			</div>
+</div><br/>
+
+<div class="kmjs" id="kmjs">
+	<div class="gdzl2_div2">
+	<table class="table2" width="600" height="100" border="1">  
+			  <tr><td colspan="4"><b>兴趣爱好介绍</b></td></tr>  
+			  <tr>  
+			    <td class="td1">篮球</td>
+				<td>篮球活动涵盖了跑、跳、投等多种身体运动形式，且运动强度较大，因此，它能全面、有效、综合地促进身体素质和人体机能的全面发展，提高和保持人的生命活力，为人的一切活动打下坚实的身体（物质）基础，从而提高生活的质量。</td>
+			  </tr>
+			  <tr>
+			  	<td class="td1">写博客</td>
+				<td>个人展示自己某个方面的空间，让更多人了解你，学习交流的地方。</td>
+			  </tr>
+			  <tr>
+			  	<td class="td1">跑步</td>
+				<td>跑步锻炼是人们最常采用的一种身体锻炼方式，这主要是因为跑步技术要求简单，无需特殊的场地、服装或器械。无论在运动场上或在马路上，甚至在田野间、树林中均可进行跑步锻炼。各人可以自己掌握跑步的速度、距离和路线。为了强身健体!</td>
+			  </tr>
+			  <tr>
+			  	<td class="td1">听音乐</td>
+				<td>音乐是人们抒发感情、表现感情、寄托感情的艺术，不论是唱、奏或听，都内涵着关联人们千丝万缕情感的因素。音乐是对人类感情的直接模拟和升华。人们可以从音乐审美过程中，通过情感的抒发和感受，产生认识和道德的力量。</td>
+			  </tr>
+			  <tr>
+			  	<td class="td1">电影</td>
+				<td>电影是一种综合艺术，亦正如艺术本身，有着复杂而繁多的科系。电影世界里有很多不同类型的电影，也有很多种电影的分类方法。</td>
+			  </tr>
+	</table>  
+	</div>
+</div><br/>
+
+</body>
+</html>
